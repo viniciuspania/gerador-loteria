@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card{ margin: 30px 0;}
+
+#return {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#return p {
+    padding: 10px;
+    border: 1px solid ridge;
+}
+
+.btn-megasena {
+    background-color: #198754;
+    color: #fff;
+}
+.btn-megasena:hover {
+    color: #fff;
+}
+
+.btn-lotomania {
+    background-color: #fd7e14;
+    color: #fff;
+}
+
+.btn-lotofacil {
+    background-color: #6f42c1;
+    color: #fff;
+}
+.btn-lotofacil:hover {
+    color: #fff;
+}
+.navbar {
+    background-color: #333;
+}
+.navbar h2 {
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#sobre-jogos h3, h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    line-height: 45px;
+    height: 45px;
+    margin-top: 90px;
+    text-align: center;
+}

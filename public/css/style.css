@@ -1,5 +1,4 @@
 body {
-  min-height: 100vh;
   font-family: Helvetica, sans-serif;
   text-align: center;
   text-transform: capitalize;
@@ -73,7 +72,9 @@ body {
 
 #aboutGames {
   width: 100%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 30px auto;
   padding: 10px;
 }
 

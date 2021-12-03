@@ -1,65 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-
 body {
-    height: 100vh;
-    font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.card{ margin: 30px 0;}
-
-#return {
-    display: flex;
-    margin-top: 20px;
-    font-size: 20px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-#return p {
-    padding: 10px;
-    border: 1px solid ridge;
+#title {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(11, 14, 58);
+  color: #fff;
+}
+
+#title h2 {
+  font-weight: 300;
+  font-size: 19px;
+  margin-bottom: 3px;
+}
+
+#title p {
+  text-align: center;
+}
+
+#botoes {
+  display: flex;
+  flex-direction: column;
+}
+
+#content p {
+  font-weight: bold;
+}
+
+#botoes .btn {
+  width: 80%;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 10px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .btn-megasena {
-    background-color: #198754;
-    color: #fff;
+  background-color: green;
 }
-.btn-megasena:hover {
-    color: #fff;
-}
-
-.btn-lotomania {
-    background-color: #fd7e14;
-    color: #fff;
-}
-
 .btn-lotofacil {
-    background-color: #6f42c1;
-    color: #fff;
+  background-color: purple;
 }
-.btn-lotofacil:hover {
-    color: #fff;
-}
-.navbar {
-    background-color: #333;
-}
-.navbar h2 {
-    margin: auto;
-    color: #fff;
-    font-size: 40px;
-    font-family: 'Shadows Into Light', cursive;
+.btn-lotomania {
+  background-color: orange;
 }
 
-#sobre-jogos h3, h5{
-    text-transform: uppercase;
-    font-weight: bold;
+#resultado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 10px;
 }
 
-footer {
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    line-height: 45px;
-    height: 45px;
-    margin-top: 90px;
+#aboutGames {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#aboutGames h4 {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+#aboutGames p {
+  text-align: left;
+}
+
+#footer {
+  background-color: rgb(11, 14, 58);
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 5px;
+}
+#footer p {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  #title {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #logo {
+    float: left;
+  }
+
+  #data {
+    float: right;
+  }
+
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 980px;
+    margin: 0 auto;
+  }
+
+  #content {
+    margin-top: 80px;
+  }
+
+  #botoes .btn {
+    width: 50%;
+  }
+
+  #aboutGames h4 {
     text-align: center;
+  }
+
+  #aboutGames p {
+    text-align: center;
+  }
 }

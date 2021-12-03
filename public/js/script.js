@@ -16,7 +16,11 @@ const megaSena = () => {
       arr.push(newNumber)
     }
   }
-  return retornaDados.innerHTML = `<p>${arr.sort(function (a, b) { return a - b }).join(" - ")}</p>`
+  return retornaDados.innerHTML = `
+  <h3>Anote seus números :) </h3>
+  <br/>
+  <p>${arr.sort(function (a, b) { return a - b }).join(" - ")}</p>
+  `
 }
 
 const lotoFacil = () => {
@@ -30,7 +34,11 @@ const lotoFacil = () => {
       arr.push(newNumber)
     }
   }
-  return retornaDados.innerHTML = `<p>${arr.sort(function (a, b) { return a - b }).join(" - ")}</p>`
+  return retornaDados.innerHTML = `
+  <h3>Anote seus números :) </h3>
+  <br/>
+  <p>${arr.sort(function (a, b) { return a - b }).join(" - ")}</p>
+  `
 }
 
 const lotomania = () => {
@@ -44,7 +52,11 @@ const lotomania = () => {
       arr.push(newNumber)
     }
   }
-  return retornaDados.innerHTML = `<p>${arr.sort(function (a, b) { return a - b }).join(" - ")}</p>`
+  return retornaDados.innerHTML = `
+  <h3>Anote seus números :) </h3>
+  <br/>
+  <p>${arr.sort(function (a, b) { return a - b }).join(" - ")}</p>
+  `
 }
 
 
